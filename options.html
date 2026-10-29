@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 16px; min-width: 380px; }
+  input { width: 100%; padding: 6px; box-sizing: border-box; }
+  p { color: #666; }
+  #status { color: #188038; height: 1em; }
+</style>
+</head>
+<body>
+  <label for="url">Start page URL</label>
+  <input id="url" type="url" placeholder="Leave empty to use Chrome's New Tab page">
+  <p>Shown when you close the last tab of the last window.</p>
+  <button id="save">Save</button>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>

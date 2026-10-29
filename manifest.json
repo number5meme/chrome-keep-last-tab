@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Keep Last Tab",
+  "version": "1.0",
+  "description": "When you close the last tab of the last window, show your start page instead of closing the window.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
