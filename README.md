@@ -18,7 +18,7 @@ Chrome closes a window as soon as its last tab is closed, and an extension canno
 
 ## Install
 
-1. Download or clone this repository and keep the folder somewhere permanent.
+1. Download `keep-last-tab-<version>.zip` from [Releases](https://github.com/number5meme/chrome-keep-last-tab/releases/latest), unzip it, and keep the folder somewhere permanent. You can also clone this repository instead.
 2. Open `chrome://extensions` and turn on **Developer mode**.
 3. Click **Load unpacked** and select the folder.
 
